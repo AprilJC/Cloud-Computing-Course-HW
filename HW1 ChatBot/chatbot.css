@@ -1,0 +1,86 @@
+body{
+	background-image: url("https://images.unsplash.com/photo-1451186859696-371d9477be93?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.chat .avatar {
+    position: absolute;
+    z-index: 1;
+    top: 12px;
+    left: 650px;
+    border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border: 2px solid rgba(255, 255, 255, 0.24);
+}
+.chat .avatar img {
+    width: 100%;
+    height: auto;
+}
+
+
+.main{
+    width: 300px;
+    margin: auto;
+}
+
+.box{
+    float: center;
+    margin-left: 15px;
+    margin-right: 15px;
+	/*margin:auto;*/
+}
+.top{
+	 width: 300px;
+     padding: 10px 20px;
+     background-color: grey;
+     color: white;
+     font-weight: bold;
+     text-align: center;
+}
+.content{
+        background:white;
+        height: 470px;
+    }
+    select{
+        border: 2px solid #ccc;
+        background: rgb(221,236,234);
+        width: 340px;
+        height: 470px;
+        padding: 10px;
+    }
+.send{
+        width: 300px;
+        background:grey ;
+        padding: 10px 20px;
+    }
+    .sendtext{
+        height: 25px;
+        width: 220px;
+        font-size: 15px;
+    }
+    .btn{
+        width: 65px;
+        height: 30px;
+        float: right;
+        font-size: 18px;
+        background-color: rgba(80,236,89);
+        color:white;
+        text-align: center;
+
+    }
+    option{
+        font-size: 15px;
+        height: auto;
+        padding: 10px;
+        margin: 10px;
+        background: rgba(80,236,89);
+        margin-left: 15px;
+        margin-right: 10px
+        max-width:300px;
+        max-bottom:10px;
+    }

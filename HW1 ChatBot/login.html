@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="login.css"/>
+    <script type="text/javascript" src="login.js"></script>
+
+</head>
+
+<body>
+	<div id="login_frame">
+		<h1>ChatBot</h1>
+		<form methon="post" action="login.js">
+			<p><label class="input_label"><b>Username</b></label>
+				<input type="text" placeholder="Enter username" id="username" class="text_field" required></p>
+			<p><label class="input_label"><b>Password</b></label>
+				<input type="password" placeholder="Enter key" id="pass" class="text_field" required></p>
+			<div id="login_request">
+				<input type="button" id="login_button" value="Log in" onclick="login();"/>
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>
+
+
+
